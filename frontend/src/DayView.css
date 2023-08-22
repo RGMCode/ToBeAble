@@ -1,0 +1,31 @@
+*{
+
+}
+
+h2{
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.activityOutput{
+    font-family: Roboto, serif;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    width: 350px;
+    padding: 5px;
+}
+
+.btnDetails{
+
+}
+
+.activityBox{
+}
