@@ -1,5 +1,16 @@
 # ToBeAble - Application
 
+Die "ToBeAble" App liefert passende Aktivitätsvorschläge basierend auf dem Wetter. Das Nutzerinterface ist bewusst schlicht gestaltet, um eine klare Übersicht zu gewährleisten.
+
+Das Wetter wird durch ein Symbol dargestellt, das die aktuellen Bedingungen zeigt, wie z.B. Sonnenschein, Bewölkung oder Regen. Zusätzlich werden die Temperatur, der UV-Index, der Ort, der Niederschlagswert in mm und die Pollenwerte (2,5 und 10) angezeigt. Diese Daten bezieht die App über eine API.
+
+Unter den Wetterinformationen gibt es eine Schaltfläche „Aktivität Hinzufügen“. Bei Klick darauf öffnet sich ein Modal-Fenster, in dem man zusätzliche Aktivitäten und zugehörige Parameter hinzufügen kann. Diese Daten werden in einer MongoDB gesichert.
+
+Empfohlene Aktivitäten werden für drei Zeiträume angezeigt: Für heute, morgen (mit dem entsprechenden Wetter-Symbol und der voraussichtlichen Temperatur) sowie übermorgen (ebenfalls mit Wetter-Symbol und Temperaturprognose).
+
+Verwendete Technologien: Java Spring Boot und Spring Security, MongoDB als Datenbank, TypeScript in Kombination mit React für das Frontend, MUI für das User Interface und Docker für die Containerisierung.
+
+
 Login
 ![image](https://github.com/RGMCode/ToBeAble/assets/90555783/171fa9e2-7ef4-4363-84ab-e095f20bd50a)
 
